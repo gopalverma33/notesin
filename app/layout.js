@@ -1,23 +1,10 @@
-import localFont from "next/font/local";
+
 import "./globals.css";
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import Script from "next/script";
 
-/* ===== Local Fonts ===== */
-
-const geistSans = localFont({
-  src: "./fonts/Geist-Regular.woff2",
-  variable: "--font-geist-sans",
-  display: "swap",
-});
-
-const geistMono = localFont({
-  src: "./fonts/GeistMono-Regular.woff2",
-  variable: "--font-geist-mono",
-  display: "swap",
-});
 
 export const metadata = {
   title: "NotesIn - Handwritten Notes, AI Tools & Resume Builder",
@@ -71,7 +58,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-<html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+  <html lang="en">
 
 
       <head>
@@ -91,7 +78,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-     <body className="antialiased">
+     <body>
 
         <Navbar />
         {children}
