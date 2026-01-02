@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://notesin.com
+
+# Sitemaps
+Sitemap: https://notesin.com/sitemap.xml
