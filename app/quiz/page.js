@@ -201,7 +201,7 @@ const styles = {
 };
 
 // Set your launch date here (format: YYYY-MM-DD)
-const QUIZZES_LAUNCH_DATE = '2026-01-01T23:59:59'; // Different date than CodeLab
+const QUIZZES_LAUNCH_DATE = '2026-03-05T23:59:59'; // Different date than CodeLab
 
 export default function QuizzesComingSoon() {
   const [timeLeft, setTimeLeft] = useState({
@@ -405,7 +405,7 @@ export default function QuizzesComingSoon() {
         {/* Notification */}
         <div style={styles.notification}>
           <Clock size={16} />
-          Launching on 1 February ,2026
+          Launching on 5 March ,2026
         </div>
       </div>
     </div>
