@@ -178,7 +178,7 @@ const styles = {
 };
 
 // Set your launch date here (format: YYYY-MM-DD)
-const LAUNCH_DATE = '2026-01-01T23:59:59'; // Change this to your desired launch date
+const LAUNCH_DATE = '2026-03-01T23:59:59'; // Change this to your desired launch date
 
 export default function CodeLabComingSoon() {
   const [timeLeft, setTimeLeft] = useState({
@@ -336,7 +336,7 @@ export default function CodeLabComingSoon() {
         {/* Notification */}
         <div style={styles.notification}>
           <Clock size={16} />
-          Launching on 1 February, 2026
+          Launching on 1 March, 2026
         </div>
       </div>
     </div>
